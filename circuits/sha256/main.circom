@@ -32,4 +32,4 @@ template Main() {
     out <== sha256_2.out;
 }
 
-component main = Main();
+component main {public [a, b]} = Main();
